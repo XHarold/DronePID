@@ -45,7 +45,7 @@
                     "name": "Hovering",
                     "type": "Button",
                     "id": "3f4f76df-cffa-4189-9084-4a3aaccaf520",
-                    "expectedControlType": "Button",
+                    "expectedControlType": "",
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
@@ -75,6 +75,39 @@
                     "isPartOfComposite": false
                 },
                 {
+                    "name": "1D Axis",
+                    "id": "fc35c2a5-1e78-4923-bda2-f605315a84f3",
+                    "path": "1DAxis",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Yaw",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "negative",
+                    "id": "6bc792e2-7c97-405e-a0f2-b709730ec99e",
+                    "path": "<Keyboard>/j",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Yaw",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "positive",
+                    "id": "194b4cc5-2194-4eb3-b3fb-ffa007f7c118",
+                    "path": "<Keyboard>/l",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Yaw",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
                     "name": "",
                     "id": "5b0de8ab-76d9-473a-8781-02662f54b03d",
                     "path": "<HID::KHOBBY KHOBBY>/stick/y",
@@ -97,59 +130,114 @@
                     "isPartOfComposite": false
                 },
                 {
-                    "name": "",
-                    "id": "333624b9-f6db-460b-9139-134b5a4dbc68",
-                    "path": "<HID::KHOBBY KHOBBY>/stick/x",
+                    "name": "1D Axis",
+                    "id": "587b30b2-fa48-4eae-b331-0c61f38c42ea",
+                    "path": "1DAxis",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Pitch",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "negative",
+                    "id": "54353d5e-36aa-4999-bfdc-35ef56b794fb",
+                    "path": "<Keyboard>/w",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Pitch",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "positive",
+                    "id": "58e3dd9a-2806-4a99-b835-300fdc898102",
+                    "path": "<Keyboard>/s",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Pitch",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "1D Axis",
+                    "id": "a0cc65df-a2b0-405f-9d83-98b848fe8541",
+                    "path": "1DAxis",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Roll",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "negative",
+                    "id": "5ab34ef7-3934-4396-9f8f-4d040ca97347",
+                    "path": "<Keyboard>/a",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
                     "action": "Roll",
                     "isComposite": false,
-                    "isPartOfComposite": false
+                    "isPartOfComposite": true
                 },
                 {
-                    "name": "",
-                    "id": "40eb77fa-c4ec-4a8a-b27d-a0b54192c11d",
-                    "path": "<HID::FeiYing Model GOLD WARRIOR SIM -  G4~7 Controller>/stick/x",
+                    "name": "positive",
+                    "id": "66f28c5d-ee16-4271-bedf-0e8ea768651e",
+                    "path": "<Keyboard>/d",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
                     "action": "Roll",
                     "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
-                    "id": "cffab0a0-3435-4f2b-8f39-3887585ef98a",
-                    "path": "<HID::KHOBBY KHOBBY>/z",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "Power",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
-                    "id": "ef18bb3b-b845-4959-b61d-e2079c77aa00",
-                    "path": "<HID::FeiYing Model GOLD WARRIOR SIM -  G4~7 Controller>/z",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "Power",
-                    "isComposite": false,
-                    "isPartOfComposite": false
+                    "isPartOfComposite": true
                 },
                 {
                     "name": "",
                     "id": "ec691dfe-d2fa-40e1-a24e-2f4ff0b4fe70",
-                    "path": "<HID::KHOBBY KHOBBY>/button2",
+                    "path": "<Keyboard>/space",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
                     "action": "Hovering",
                     "isComposite": false,
                     "isPartOfComposite": false
+                },
+                {
+                    "name": "1D Axis",
+                    "id": "e686c894-0af8-4165-bdde-a9f7cc3569be",
+                    "path": "1DAxis",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Power",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "negative",
+                    "id": "029260fe-a7aa-474d-a944-1568ff39ed36",
+                    "path": "<Keyboard>/i",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Power",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "positive",
+                    "id": "349dfdaf-61cf-46cb-808c-7f69180932e9",
+                    "path": "<Keyboard>/k",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Power",
+                    "isComposite": false,
+                    "isPartOfComposite": true
                 }
             ]
         }
